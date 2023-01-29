@@ -2,7 +2,8 @@
 import Features from 'components/Features';
 import Footer from 'components/Footer';
 import HeroSection from 'components/HeroSection';
-import Testimonial from 'components/Testimonial';
+import Profile from 'components/Profile';
+
 
 
 export default function Home(){
@@ -10,7 +11,7 @@ export default function Home(){
   <>
   <HeroSection />
   <Features /> 
-  <Testimonial />
+  <Profile />
   <Footer />
   </>
   )
