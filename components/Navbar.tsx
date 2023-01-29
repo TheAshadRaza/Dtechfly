@@ -10,6 +10,7 @@ import {
     Collapse,
     Icon,
     Link,
+    Image,
     Popover,
     PopoverTrigger,
     PopoverContent,
@@ -32,7 +33,7 @@ import {
         <Flex
           bg={useColorModeValue('white', 'gray.800')}
           color={useColorModeValue('gray.600', 'white')}
-          minH={'60px'}
+          minH={'120px'}
           py={{ base: 2 }}
           px={{ base: 4 }}
           position={'sticky'}
@@ -53,14 +54,14 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
-                <Button as={"a"} href="/">  D t e c h F l y </Button>
+          <Flex flex={{ base:1 }} justify={{ base: 'center', md: 'start' }}>
             
-            </Text>
+          <Button
+            as={'a'}
+            href='/'
+              bg={'white'}><Image src='https://i.ibb.co/Vx3PB9Q/Logo.png' alt='logo' h='200px' w='200px' /></Button>
+            
+          
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
@@ -109,7 +110,7 @@ import {
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
     return (
-      <Stack direction={'row'} spacing={4}>
+      <Stack direction={'row'} spacing={6} >
         {NAV_ITEMS.map((navItem) => (
           <Box key={navItem.label}>
             <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -117,7 +118,7 @@ import {
                 <Link
                   p={2}
                   href={navItem.href ?? '#'}
-                  fontSize={'sm'}
+                  fontSize={'md'}
                   fontWeight={500}
                   color={linkColor}
                   _hover={{
