@@ -1,9 +1,7 @@
 "use client"
 import { ChakraProvider } from '@chakra-ui/react';
 import Navbar from 'components/Navbar';
-
-
-
+import 'tailwindcss/tailwind.css';
 export default function RootLayout({
   children,
 }: {
@@ -19,6 +17,7 @@ export default function RootLayout({
       <body>
         <ChakraProvider>
           <Navbar />
+         
       {children}
         </ChakraProvider>
       </body>

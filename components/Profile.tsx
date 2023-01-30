@@ -44,18 +44,19 @@ import {
             <Heading fontSize={'2xl'} fontFamily={'body'}>
              Md Ashad Raza
             </Heading>
-            <Text fontWeight={600} color={'gray.500'} size="sm" mb={4}>
+            <Text fontWeight={600} color={'red.600'} size="sm" mb={4}>
               @ashad_raza
             </Text>
             <Text
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-              Software Engineer . CEO . ready for a Coffe
-              <Link href={'#'} color={'blue.400'}>
-                #startup
+              Software Engineer .<br />
+              CEO at Dtechfly Pvt.Ltd.
+              <Link href={'#'} color={'blue.500'}><br />
+                Let's Fly with us ...
               </Link>
-               helping to Fly
+               
             </Text>
             <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
               <Badge
@@ -63,21 +64,7 @@ import {
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #art
-              </Badge>
-              <Badge
-                px={2}
-                py={1}
-                bg={useColorModeValue('gray.50', 'gray.800')}
-                fontWeight={'400'}>
-                #photography
-              </Badge>
-              <Badge
-                px={2}
-                py={1}
-                bg={useColorModeValue('gray.50', 'gray.800')}
-                fontWeight={'400'}>
-                #music
+                #StartUp
               </Badge>
             </Stack>
   
@@ -98,19 +85,22 @@ import {
                 Message
               </Button>
               <Button
+              as={'a'}
+              href='/contact'
                 flex={1}
                 fontSize={'sm'}
                 rounded={'full'}
-                bg={'blue.400'}
+                bg={'red.600'}
                 color={'white'}
                 boxShadow={
                   '0px 1px 25px -5px rgb(66 153 225 / 48%), 0 10px 10px -5px rgb(66 153 225 / 43%)'
                 }
                 _hover={{
-                  bg: 'blue.500',
+                  bg: 'black',
+                  
                 }}
                 _focus={{
-                  bg: 'blue.500',
+                  bg: 'red.600',
                 }}>
                 Follow
               </Button>

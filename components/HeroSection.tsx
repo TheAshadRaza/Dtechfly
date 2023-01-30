@@ -38,10 +38,12 @@ import {
               px={6}
               colorScheme={'orange'}
               bg={'red.600'}
+              zIndex="-1"
               _hover={{ bg: 'black' }}>
               Get started
             </Button>
-            <Button rounded={'full'} px={6}>
+            <Button rounded={'full'} px={6}
+             zIndex="-1">
               Learn more
             </Button>
           </Stack>
