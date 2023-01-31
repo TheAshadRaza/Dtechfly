@@ -71,7 +71,7 @@ export default function Navbar() {
 
               >
                 <Image src='https://i.ibb.co/mCSJpwR/Logo.png' alt='logo' width={'170px'} 
-                  height={useBreakpointValue({base:'180px', md:'200px'})}
+                  height={useBreakpointValue({base:'180px', md:'190px'})}
             />
                 </Button>
            
