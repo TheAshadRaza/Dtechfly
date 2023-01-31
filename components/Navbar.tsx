@@ -66,8 +66,13 @@ export default function Navbar() {
             fontFamily={'heading'}
             width ={useBreakpointValue({base:'170px', md:'170px'})}
             color={useColorModeValue('gray.800', 'white')}>
-              <Button as='a' href='/' bg={'transparent'} >
-                <Image src='https://i.ibb.co/mCSJpwR/Logo.png' alt='logo' width={'170px'} height={'170px'}/>
+              <Button as='a' href='/' bg={'transparent'} 
+            width ={useBreakpointValue({base:'180px', md:'200px'})}
+
+              >
+                <Image src='https://i.ibb.co/mCSJpwR/Logo.png' alt='logo' width={'170px'} 
+                  height={useBreakpointValue({base:'180px', md:'200px'})}
+            />
                 </Button>
            
           </Text>
