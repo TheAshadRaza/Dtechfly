@@ -64,6 +64,7 @@ export default function Navbar() {
           <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
+            width ={useBreakpointValue({base:'170px', md:'170px'})}
             color={useColorModeValue('gray.800', 'white')}>
               <Button as='a' href='/' bg={'transparent'} >
                 <Image src='https://i.ibb.co/mCSJpwR/Logo.png' alt='logo' width={'170px'} height={'170px'}/>
@@ -173,10 +174,10 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           <Text
             transition={'all .3s ease'}
             _groupHover={{ color: 'pink.400' }}
-            fontWeight={500}>
+            fontWeight={800}>
             {label}
           </Text>
-          <Text fontSize={'sm'}>{subLabel}</Text>
+          <Text fontSize={'md'}>{subLabel}</Text>
         </Box>
         <Flex
           transition={'all .3s ease'}
@@ -221,7 +222,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
           textDecoration: 'none',
         }}>
         <Text
-          fontWeight={700}
+          fontWeight={900}
           color={useColorModeValue('gray.600', 'gray.200')}>
           {label}
         </Text>
