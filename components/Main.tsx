@@ -1,15 +1,23 @@
 import {
+  Box,
     Button,
+    color,
     Flex,
     Heading,
     Image,
+    keyframes,
+  
     Stack,
     Text,
     useBreakpointValue,
   } from '@chakra-ui/react';
-  
+
+  import  '../styles/globals.css';
+
   export default function Main() {
     return (
+      <div className='bg-hero bg-no-reapet bg-center bg-cover' >
+       
       <Stack minH={'100vh'}  direction={{ base: 'column', md: 'row' }}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
@@ -25,15 +33,20 @@ import {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: 'pink.400',
+                  bg: 'white',
+                  color:'white',
                   zIndex: -1,
                 }}>
                 Technology
               </Text>
               <br />{' '}
-              <Text color={'red.600'} as={'span'}>
-                Controlling The World !
-              </Text>{' '}
+              
+            <div className='typewriter-contain'>
+              <div className='typewriter'>
+                Controlling The World <span className='text-white'>!</span>
+              </div>
+            </div>
+            
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
               Everything is changing with the time and 
@@ -41,8 +54,8 @@ import {
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
               <Button
-                bg='white'
-                color='black'
+                bg='red.600'
+                color='white'
                 rounded={'full'}
                 _hover={{
                   bg: 'black',
@@ -54,16 +67,7 @@ import {
             </Stack>
           </Stack>
         </Flex>
-        <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            rounded={'2xl'}
-            objectFit={'cover'}
-            src={
-              'https://images.unsplash.com/photo-1626908013351-800ddd734b8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80'
-            }
-          />
-        </Flex>
       </Stack>
+     </div>
     );
   }

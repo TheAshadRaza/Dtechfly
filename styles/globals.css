@@ -2,3 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.typewriter-contain{
+    display: inline-block;
+}
+.typewriter{
+    overflow: hidden;
+    background-size: cover;
+    font-size: 2.6rem;
+    color: rgb(211, 36, 36);
+    border-right: .10em solid whitesmoke;
+    width: 0;
+    white-space: nowrap;
+    animation-name: typing;
+    animation-duration: 2.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes typing{
+from{width:0}
+to{width: 100%;}
+
+}
+@media only screen and (max-width: 400px) {
+    .typewriter{
+        font-size: 1.6rem;
+    }
+}
