@@ -33,7 +33,7 @@ export default function Navbar() {
     as="header" 
     position="fixed" 
     backgroundColor="rgba(255, 255, 255, 0.8)" 
-    backdropFilter="saturate(180%) blur(4px)" 
+    backdropFilter="saturate(180%) blur(2px)" 
     w="100%"
     zIndex={'9999'}
         color={useColorModeValue('gray.600', 'white')}
@@ -178,7 +178,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'pink.400' }}
+            _groupHover={{ color: 'red.600' }}
             fontWeight={800}>
             {label}
           </Text>
@@ -192,7 +192,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
           justify={'flex-end'}
           align={'center'}
           flex={1}>
-          <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={'red.600'} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>
@@ -271,16 +271,16 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Development',
+    label: 'Softwares',
     children: [
       {
-        label: 'Andoroid Development',
+        label: 'Software Development',
         subLabel:'Software that full fill your requirement',
         href: '#',
       },
       {
-        label: 'Web Development',
-        subLabel: 'Let your buiseness go world-wide',
+        label: 'Custom Software',
+        subLabel: 'Take as per your own requirement ',
         href: '#',
       },
       {
@@ -316,6 +316,6 @@ const NAV_ITEMS: Array<NavItem> = [
   },
   {
     label: 'Who I am ',
-    href: '#',
+    href: '/about',
   },
 ];

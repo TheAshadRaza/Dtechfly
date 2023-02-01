@@ -45,15 +45,14 @@ import {
              Md Ashad Raza
             </Heading>
             <Text fontWeight={600} color={'red.600'} size="sm" mb={4}>
-              @ashad_raza
+              @solopreanur
             </Text>
             <Text
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
-              px={3}>
-              Software Engineer .<br />
+              px={1}>
               CEO at Dtechfly Pvt.Ltd.
-              <Link href={'#'} color={'blue.500'}><br />
+              <Link href={'https://www.ashadraza.com'} color={'blue.500'}><br />
                 Let's Fly with us ...
               </Link>
                
@@ -64,7 +63,7 @@ import {
                 py={1}
                 bg={useColorModeValue('gray.50', 'gray.800')}
                 fontWeight={'400'}>
-                #StartUp
+                #Startup
               </Badge>
             </Stack>
   
@@ -86,7 +85,7 @@ import {
               </Button>
               <Button
               as={'a'}
-              href='/contact'
+              href='https://www.linkedin.com/in/md-ashad-raza-a2133921b/h'
                 flex={1}
                 fontSize={'sm'}
                 rounded={'full'}

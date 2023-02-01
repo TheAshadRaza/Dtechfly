@@ -58,9 +58,9 @@ import {
             </Text>
             <Heading>Our Goal is Buying Your Trust ,, </Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
-            DtechFly is here is full-fill your goal with high 
-            capabelity, having Expert proffesional to Organize your 
-            Idea.
+            "DtechFly is here to full-fill your goal with high
+            Capablity having Expert Proffesional to Organize your Idea and Deliver it 
+            to market".
             </Text>
             <Stack
               spacing={4}

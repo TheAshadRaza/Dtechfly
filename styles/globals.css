@@ -20,6 +20,8 @@
     animation-direction: alternate-reverse;
 }
 
+ /* i frame property styling because it is not working with html tag  */
+
 
 @keyframes typing{
 from{width:0}
