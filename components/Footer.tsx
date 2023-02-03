@@ -54,8 +54,8 @@ import {
         <Container
           as={Stack}
           maxW={'6xl'}
-          py={4}
-          spacing={4}
+          py={6}
+          spacing={8}
           justify={'center'}
           align={'center'}>
            <Button
@@ -65,9 +65,13 @@ import {
             
           <Stack direction={'row'} spacing={6}>
             <Link href={'#'}>Home</Link>
+
             <Link href={'/about'}>About</Link>
+
             <Link href={'/blog'}>Blog</Link>
+
             <Link href={'/contact'}>Contact</Link>
+
           </Stack>
         </Container>
   

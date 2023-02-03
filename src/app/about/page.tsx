@@ -1,6 +1,7 @@
+"use client"
+
+
 import Footer from 'components/Footer';
-
-
 
 
 
@@ -45,14 +46,7 @@ export default function WhoIam(){
                                                 </div>
                                         
                                             </div>
-                                         
-
-
-
-
-
-
-        
+                                         <Footer />
         </div>
     )
 }
