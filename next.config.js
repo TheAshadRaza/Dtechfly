@@ -15,6 +15,17 @@ module.exports = withCSS({
     url: false
   }
 });
-
+module.exports = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media4.giphy.com',
+        port: '',
+        pathname: '/media4.giphy.com/media/**',
+      },
+    ],
+  },
+}
 
 module.exports = nextConfig
