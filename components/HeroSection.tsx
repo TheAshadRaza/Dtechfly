@@ -44,7 +44,7 @@ import {
             </Button>
             <Button rounded={'full'} px={6}
              zIndex="-1">
-              Learn more
+              Fly with us.
             </Button>
           </Stack>
           <Flex w={'full'}>
@@ -60,6 +60,7 @@ import {
   
   export const Illustration = (props: IconProps) => {
     return (
+    <div>
       <Icon
         width="100%"
         viewBox="0 0 702 448"
@@ -871,5 +872,36 @@ import {
           </linearGradient>
         </defs>
       </Icon>
+
+
+      <div className=" bg-muve bg-no-repeat bg-center bg-cover flex justify-center">
+<div className="flex flex-col justify-center">
+    <div className="flex flex-col md:flex-row max-w-7xl justify-center items-center ">
+        <div className="overflow-hidden w-full m-4 flex justify-center">
+            <div
+                className="flex flex-col md:flex-row items-center shadow-md h-full text-white bg-red-600 hover:bg-white hover:text-black">
+                <div className=" w-1/2 overflow-hidden ">
+                    <div className="flex flex-col justify-center h-full p-2">
+                        <div className="font-bold text-3xl m-2">Find the best place for your Startup. </div>
+                        <div className=" m-2 hover:text-orange-500"><a href="/fly">Ready for fly</a></div>
+                    </div>
+                </div>
+                <div className=" md:w-1/2 overflow-hidden "> <img src="https://source.unsplash.com/700x600/?building"
+                        alt="" className="" /> </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
+      </div>
     );
   };

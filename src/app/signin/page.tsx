@@ -1,4 +1,8 @@
 "use client"
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 import {
     Flex,
     Box,
@@ -15,6 +19,9 @@ import {
   } from '@chakra-ui/react';
   
   export default function SignInPage() {
+
+    const nerror = () => toast("error: under maintanance ");
+
     return (
       <Flex
         minH={'100vh'}
@@ -25,7 +32,7 @@ import {
           <Stack align={'center'}>
             <Heading fontSize={'4xl'}>Sign in to your account</Heading>
             <Text fontSize={'lg'} color={'gray.600'}>
-              to enjoy all of our cool <Link color={'blue.400'}>features</Link> ✌️
+              We like you to be my network <Link color={'blue.400'}>Area</Link> ✌️
             </Text>
           </Stack>
           <Box
@@ -55,9 +62,12 @@ import {
                   color={'white'}
                   _hover={{
                     bg: 'blue.500',
-                  }}>
+                  }}
+                  onClick={nerror}
+                  >
                   Sign in
                 </Button>
+                <ToastContainer />
               </Stack>
             </Stack>
           </Box>

@@ -1,5 +1,8 @@
 
 "use client"
+import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import {
     Flex,
@@ -21,6 +24,10 @@ import {
   import { ViewIcon, ViewOffIcon } from '@chakra-ui/icons';
   
   export default function SignUpPage() {
+
+    const notify = () => toast("error : Under Maintanance ");
+
+
     const [showPassword, setShowPassword] = useState(false);
   
     return (
@@ -83,11 +90,13 @@ import {
                   size="lg"
                   bg={'blue.400'}
                   color={'white'}
+                  onClick={notify}
                   _hover={{
                     bg: 'blue.500',
                   }}>
                   Sign up
                 </Button>
+                <ToastContainer />
               </Stack>
               <Stack pt={6}>
                 <Text align={'center'}>

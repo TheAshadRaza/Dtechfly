@@ -6,7 +6,7 @@ import Profile from 'components/Profile';
 import Main from 'components/Main';
 import Motion from 'components/Motion';
 import Content from 'components/Content';
-
+import Serve from 'components/Serve';
 export default function Home(){
   return (
   <>
@@ -14,6 +14,7 @@ export default function Home(){
   <Motion />
   <HeroSection />
   <Content />
+  <Serve />
   <Features /> 
   <Profile />
   <Footer />

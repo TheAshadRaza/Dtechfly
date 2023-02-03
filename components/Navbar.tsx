@@ -66,7 +66,7 @@ export default function Navbar() {
             fontFamily={'heading'}
             width ={useBreakpointValue({base:'170px', md:'170px'})}
             color={useColorModeValue('gray.800', 'white')}>
-              <Button as='a' href='/' bg={'transparent'} 
+              <Button as='a' href='/' bg={'tranparent'} 
             width ={useBreakpointValue({base:'180px', md:'200px'})}
 
               >
@@ -285,7 +285,7 @@ const NAV_ITEMS: Array<NavItem> = [
       },
       {
         label: 'Enterprise Application',
-        subLabel: 'Everythings things on next Step',
+        subLabel: 'Everythings things on demand configuration tool',
         href: '#',
       },
     ],
@@ -296,23 +296,23 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: 'Blockchain Development',
         subLabel: 'Make own Public & Private  ',
-        href: '#',
+        href: '/Blockchain',
       },
       {
         label: 'Dapps',
         subLabel: 'Design and Development',
-        href: '#',
+        href: '/blockchain',
       },
       {
         label: 'Smart Contract ',
         subLabel: 'Development with your concept',
-        href: '#',
+        href: '/blockchian',
       },
     ],
   },
   {
-    label: 'Security Assets',
-    href: '#',
+    label: 'Solutions',
+    href: '/solutions',
   },
   {
     label: 'Who I am ',

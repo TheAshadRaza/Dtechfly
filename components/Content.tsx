@@ -18,9 +18,9 @@ return(
 <div className="container px-5 py-24 mx-auto ">
 <div className="flex flex-wrap w-full mb-20">
   <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-black">Every Industry Covered by "<br />
-    <span className="text-red-600"> D T E C H F L Y</span></h1>
-    <div className="h-1 w-20 bg-indigo-500 rounded"></div>
+    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-black">Core Service Covered by "<br />
+    <span className="text-red-600 text-3xl font-bold uppercase"> D T E C H F L Y</span></h1>
+    <div className="h-1 w-20 bg-black rounded"></div>
   </div>
   <p className="lg:w-1/2 w-full leading-relaxed text-gray-700"> Information Technology (IT) industry growth rate forecast for the time period from 2018 to 2023, separated by segment. "Emerging tech", which includes fields like IoT software, big data/analytics, AR/VR, etc., is expected to see the most growth, with forecasts suggesting that the sector will grow by 104 percent between 2018 and 2023.</p>
 </div>

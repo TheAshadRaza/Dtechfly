@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 .typewriter-contain{
     display: inline-block;
@@ -28,8 +36,13 @@ from{width:0}
 to{width: 100%;}
 
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .typewriter{
         font-size: 1.6rem;
     }
 }
+
+
+
+
+
