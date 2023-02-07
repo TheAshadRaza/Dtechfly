@@ -1,3 +1,5 @@
+import React , {useState} from 'react';
+
 import {
   Box,
   Flex,
@@ -27,15 +29,26 @@ import { redirect } from 'next/dist/server/api-utils';
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
+  const [navbar , setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if(window.scrollY >=800){
+      setNavbar(true);
+    }else{
+      setNavbar(false);
+    }
+  };
+  window.addEventListener('scroll' , changeBackground);
+  
+  
+  
+  
   return (
     <Box>
       <Flex
     as="header" 
     position="fixed" 
-    backgroundColor="rgba(255, 255, 255, 0.8)" 
-    backdropFilter="saturate(180%) blur(2px)" 
-    w="100%"
-    zIndex={'9999'}
+   className={navbar ? 'nav-bar': 'nav'}
         color={useColorModeValue('gray.600', 'white')}
         minH={'80px'}
         py={{ base: 1}}
