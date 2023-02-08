@@ -29,26 +29,12 @@ import { redirect } from 'next/dist/server/api-utils';
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
-  const [navbar , setNavbar] = useState(false);
-
-  const changeBackground = () => {
-    if(window.scrollY >=800){
-      setNavbar(true);
-    }else{
-      setNavbar(false);
-    }
-  };
-  window.addEventListener('scroll' , changeBackground);
-  
-  
-  
-  
   return (
     <Box>
       <Flex
     as="header" 
     position="fixed" 
-   className={navbar ? 'nav-bar': 'nav'}
+   className='nav'
         color={useColorModeValue('gray.600', 'white')}
         minH={'80px'}
         py={{ base: 1}}
