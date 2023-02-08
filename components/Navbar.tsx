@@ -34,7 +34,7 @@ export default function Navbar() {
       <Flex
     as="header" 
     position="fixed" 
-   className='nav w-full bg-white '
+   className='nav w-full bg-white z-50'
         color={useColorModeValue('gray.600', 'white')}
         minH={'80px'}
         py={{ base: 1}}
