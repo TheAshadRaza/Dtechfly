@@ -33,16 +33,18 @@ import {
                   position: 'absolute',
                   bottom: 1,
                   left: 0,
-                  bg: 'white',
-                  color:'white',
+
+
                   zIndex: -1,
                 }}>
-                Technology
+                <span className='text-white font-bold'>
+                  Technology
+                  </span>
               </Text>
               <br />{' '}
               
             <div className='typewriter-contain'>
-              <div className='typewriter'>
+              <div className='typewriter text-red-400'>
                 Controlling The World <span className='text-white'>!</span>
               </div>
             </div>
