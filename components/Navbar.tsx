@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import {Dlogo} from '../tailwind.config.js';
+
 import {
   Box,
   Flex,
@@ -69,7 +69,7 @@ export default function Navbar() {
             width ={useBreakpointValue({base:'180px', md:'200px'})}
 
               >
-                <Image src='{Dlogo}' alt='logo' width={'170px'} 
+                <Image src='https://lh3.googleusercontent.com/pw/AIL4fc_4S-3SjOHyuI-rMkKNHkw6g8oFqvhhTbqWj69tfEA_iw3KjZTQLEX3rMxCIXUfcEhGMJWC9CXXc7pqyKHFxoEFuT1bSPydNwFvjmNwGFg6D3YRHmz6_RZDfrySQJpUZ154M_fCwKqtN188-YPfXQl1EAw56a7quar7Wa2Y69aZBFnRsGN1cXtv7IOLpCn9ST9EIJFM-KxjIpbKWH6J1YCKQs7RBhHQDVS3GXwLS_ibAm1HBywS4xGPk1dSff1I-lNVt5IzQHi_UifijlHF5GWqd8jVLVNGWYKQE9M6PJCETEY4-8Xi8i8qaoahOUKVxADqmSBPjU2l2L5nlHXR1tVxz4rde83TCNoQSvae0-jg8ZoGrMHcfT4fDLfh6XKRwMWQSZnJnfdCIRAh9F5ZkGMBZk4mikXKV_zeOr3unwxjUmCYtrrn5Mf3UN_diBZDPSUztV_acj45VQm8TH4n3etdQn9y1Yr_S7uwj1pkeQ2Q4ubSL87eOvPJI-L90Ttkw95XUQCCU3uEMmZlt5lvAK0PFxHiLen0edOtsjrbkkgHgvW7Iy1Ll4KNxCGQA3sc3zlUMiAieH6gbEiHZDthXf-soHE4Ezg7SmSrWQGOQiMFTwLpfNhVSNveArgzoY39BNg8esUfPtGjiTKLaWQjVkEwycnIV58Rk7Bw6zdvfUWl__0BLYP6v3-D81dr1MviwcbP_AHAUvIJ-6X39VW0ZT_uL96V012D2R7a21Lv3854r4X-WXiuZWeo1XSTN6xEiIE-9o_djZadYBnrQvk1l3aW2c2NW7tkNpbN5zrSKODlhGzFeWl107VY4stw3rTdRMXc1ZGAU6UFjj60YRUxRbTd_TPFqcRy5e5-PtFvZLp4L0CfEdiCkR_-4yrs5LtHS7UCCHWmybwJPFstP6KaXw=w500-h500-s-no?authuser=0' alt='logo' width={'170px'} 
                   height={useBreakpointValue({base:'180px', md:'190px'})}
             />
                 </Button>
