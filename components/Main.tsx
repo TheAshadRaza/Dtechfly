@@ -44,7 +44,7 @@ import {
               <br />{' '}
               
             <div className='typewriter-contain'>
-              <div className='typewriter text-red-500'>
+              <div className='typewriter text-red-800'>
                 Controlling The World <span className='text-white'>!</span>
               </div>
             </div>
