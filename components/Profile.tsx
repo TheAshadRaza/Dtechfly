@@ -28,7 +28,7 @@ import {
               objectFit="cover"
               boxSize="100%"
               src={
-                'https://i.ibb.co/Jr5MQ65/Picsart-23-01-24-21-54-44-101-1-01-01.jpg'
+                'https://lh3.googleusercontent.com/pw/AIL4fc_big48AKwYvbDE9cHwDaQ6NFQZTY_UW8f_LcVPkeJTiKCSeWdtkhg8dQ2rx4qVwSntF_SBYRBlOXrWJkUA5-zPoc7MPfFanG-vbrDCUVi2iKJvmjXNMBgw57rJmGremgWDIPYFNbtUi7Fr-eXys_dUyaN24LojNHtO6S-P12aPYwKtMojlO1xPLLsVYlxYRsRc5vV_l2f08EK4OB7A1ELSAvxd-9DBe7obdqaRwQmxiriAt_2Mo3O6HBUNNbkGQMy4zKQJjE-5oYL1L986bXyCp1qx-m6bHwSsS8gRxANZ5iYYgp1HFkPVeepRtj9BmQHbxl0aaKPsNnoBExgpL1-EvoFH4hSnv-qpXlCDcO07I1B_C9h69-13GlO78JOJ_6fAsI3igoEXp7E63S6m0VvS6muhAOhiWuDMzWtV0tOuJtyAwFWW3sPvGvthpl9-AySqpzZKfvGYUBEm4UryDM42FBxl-O6Hsgh2lhHfrso7WTb1OcFqjeIaz6rmu3QEj_SxjgXtFsS-nJfiZ66hXy0HXk59SxQneZCVcgUaOHVjt1ljZVSIlpSvduN-5UZN0xR8Y1Y1iltFgokNg8aShhFyVK7UPH-EAQng6KZZnvL8IxJQ99h2EPqJ4-U1ZCNn1umyW56e-STKXYtEPnKXTT2abgrB-SvlMDsengqzOhIQvQLAspLlZxzGJl3ZJmVh1eJT2bTN0DytiE7dYdwivAVoUS-_5g522JgSlkP7LdlSTgW90yMhA42OjpZK20qP1fCapGrJpfiqoUA2dryoF5y8CA4UPx97d1OP4hWCxLwU3eehvnLLQjecR8IrbwhrvcziBXRs0CkyE_Dmm5A3E0W6eZSBNiBSPmqEiSxVwgfaXTEM4I6W7b1nnVSzqBiXYVd7bPiTSq1IzM4FUGzEPA=w632-h632-s-no?authuser=0'
                 
               }
               alt="profile-image"
@@ -51,7 +51,7 @@ import {
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={1}>
-              CEO at Dtechfly Pvt.Ltd.
+              Making Easy for Startup To Fly.
               <Link href={'https://www.ashadraza.com'} color={'blue.500'}><br />
                 Let's Fly with us ...
               </Link>
