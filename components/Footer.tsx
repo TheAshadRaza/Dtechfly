@@ -61,7 +61,7 @@ import {
            <Button
             as={'a'}
             href='/'
-              bg={'white'}><Image src='https://i.ibb.co/Vx3PB9Q/Logo.png' alt='logo' h='200px' w='200px' /></Button>
+              bg={'white'}><Image src='https://freeimage.host/i/HZRndKX' alt='logo' h='200px' w='200px' /></Button>
             
           <Stack direction={'row'} spacing={6}>
             <Link href={'#'}>Home</Link>
