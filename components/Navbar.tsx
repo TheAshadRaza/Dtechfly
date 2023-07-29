@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-
+import Dlogo from tailwind.config.js;
 import {
   Box,
   Flex,
@@ -69,7 +69,7 @@ export default function Navbar() {
             width ={useBreakpointValue({base:'180px', md:'200px'})}
 
               >
-                <Image src="https://freeimage.host/i/HZRndKX" alt='logo' width={'170px'} 
+                <Image src={Dlogo} alt='logo' width={'170px'} 
                   height={useBreakpointValue({base:'180px', md:'190px'})}
             />
                 </Button>
