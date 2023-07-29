@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-import Dlogo from tailwind.config.js;
+import Dlogo from '../tailwind.config.js';
 import {
   Box,
   Flex,
