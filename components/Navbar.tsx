@@ -1,5 +1,5 @@
 import React , {useState} from 'react';
-
+import Logo from './public/dtechfly.png' ;
 import {
   Box,
   Flex,
@@ -69,7 +69,7 @@ export default function Navbar() {
             width ={useBreakpointValue({base:'180px', md:'200px'})}
 
               >
-                <Image src='https://lh3.googleusercontent.com/pw/AIL4fc-DpnatBogPoKT3RZKfk-3j78398wEmUaqbbGFkrvbHYW2btHt05nvcHgWbFikTVebOYuwQk-H5alinixH1x8wmscdon4Th84KYfoasyPxnASy_MZYhxIwvkb8-vXPVsGN1BAxd1HuheiX7JZo2YesTcK9OUq38V6BACDRA04PgUX1CWqhS4XUCwwos1rYmIKONGlzOp1EalsEKdUW2IYQY1NhcCBt22IqJE7DY97oCOKDR4ueEUYn_4QhzHhGOliIcyQE3hV3HoplBABvk8ky38Jj96nf5Vc4g133ef9BFmLhB-CXkJNLlAYkMl_9ZLKTvKzWcpRb77lbkBcdD0IrWwYMo9tQJ20Qe2PZvBhK3s-COWcBQThhH7zznhkHKavX5QwWgAi6wlYagrTTyzXNFI69QJNtEC9SzaWwhZBJM7YtairK4QXbJHty7zAicixnT49tpOmqZk2GPGhMKB7on8g4K5CXiGBt8riQI7IeStpl9GxJIfgPu3zzHxLp_DABtWZ9RCikmTOhfJ36MqKLGVfiORF4_EW88zmYuAYsNVQjJkr-5Qm171a3lPnm6hNV03GhngEvzNK1IQhTFqWt188s8UKvWGq9zp5b-GcNdc2vsCyIVXWdR8pnqi5jutiQwyfeDhu20bdnoIdntlA_9Nsi_Oz4gO6ojDaBtmDi9V40QOgjEll8EEpUc2n9CmBtyVagoPpnfNQEG7M6t4GNRV_1dwywnprXX8dekKpina_dAgMbtIruEz2vDe5R_EnRTrUxjmZUzbCBuSs2KOKSe81JPP2l7saclpS2xHI1E3yvL5f9NEQPBFv42TYHLHSBTHd0-hB6hO2dGuAGa9yhKwndhRv7jKxjY46wb3TQurnFNVy7_LTRDrXJjddfG_Dr2JvulOFAzu6-9Bo43RA=w500-h500-s-no?authuser=0' alt='logo' width={'170px'} 
+                <Image src={'Logo'} alt='logo' width={'170px'} 
                   height={useBreakpointValue({base:'180px', md:'190px'})}
             />
                 </Button>
